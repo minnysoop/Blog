@@ -8,10 +8,6 @@ export default function Index() {
 
   return (
     <>
-    <Section title="About">
-      Woofing
-      <div>gaffing</div>
-    </Section>
     <Section title="Blog">
       {allPosts.length > 0 && <PostList posts={allPosts} />}
     </Section>
