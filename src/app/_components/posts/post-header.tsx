@@ -1,4 +1,4 @@
-import DateFormatter from "@/util/date-formatter";
+import DateFormatter from "../../../util/date-formatter";
 import { PostTitle } from "./post-title";
 
 type Props = {

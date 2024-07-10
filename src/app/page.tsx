@@ -1,7 +1,7 @@
-import Container from "@/app/_components/container";
-import { PostList } from "@/app/_components/posts/post-list";
-import { getAllPosts } from "@/lib/api";
-import { Section }from "@/app/_components/section"
+import Container from "./_components/container";
+import { PostList } from "./_components/posts/post-list";
+import { getAllPosts } from "../lib/api";
+import { Section }from "./_components/section"
 
 export default function Index() {
   const allPosts = getAllPosts();
