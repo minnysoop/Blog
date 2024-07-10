@@ -1,4 +1,3 @@
-import Container from "../_components/Container"
 import { getAllPosts } from "../../lib/api";
 import { PostList } from "../_components/posts/post-list";
 import { Section }from "../_components/section"
