@@ -20,7 +20,6 @@ export default function RootLayout({
     <html lang="en" className="overflow-y-auto bg-darkSlate text-darkText">
       <head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon/favicon.svg" />
       </head>
       <body className={cn(inter.className)}>
           <section className="text-center mt-20 mb-16">
