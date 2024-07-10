@@ -17,12 +17,12 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="dark overflow-y-auto">
+    <html lang="en" className="overflow-y-auto">
       <head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon/favicon.svg" />
       </head>
-      <body className={cn(inter.className, "dark:bg-slate-900 dark:text-slate-400")}>
+      <body className={cn(inter.className)}>
           <section className="text-center mt-20 mb-16">
             <h1 className="text-3xl font-bold">
               minnysoop

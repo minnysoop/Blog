@@ -10,8 +10,8 @@ type Props = {
 export function PostHeader({ title, coverImage, date }: Props) {
   return (
     <>
-      <PostTitle>{title}</PostTitle>
       <div className="max-w-4xl mx-auto">
+        <PostTitle>{title}</PostTitle>
         <div className="mb-6 text-lg font-bold">
           <DateFormatter dateString={date} />
         </div>
