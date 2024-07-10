@@ -4,6 +4,12 @@ import Container from "../../_components/container";
 import { PostBody } from "../../_components/posts/post-body";
 import { PostHeader } from "../../_components/posts/post-header";
 
+interface Params {
+  params: {
+    slug: string;
+  };
+}
+
 export default async function Post({ params }: Params) {
   const post = getPostBySlug(params.slug);
 
