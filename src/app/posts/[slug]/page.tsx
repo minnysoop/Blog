@@ -18,14 +18,16 @@ export default async function Post({ params }: Params) {
 
   return (
     <>
-      <article className="mb-32 mt-16">
-        <PostHeader
-          title={post.title}
-          coverImage={post.coverImage}
-          date={post.date}
-        />
-        <PostBody content={content} />
-      </article>
+      <Container>
+        <article className="mb-32 mt-16">
+          <PostHeader
+            title={post.title}
+            coverImage={post.coverImage}
+            date={post.date}
+          />
+          <PostBody content={content} />
+        </article>
+      </Container>
     </>
   );
 }
