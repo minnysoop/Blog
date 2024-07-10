@@ -25,3 +25,11 @@ export function getAllPosts(): Post[] {
     .sort((post1, post2) => (post1.date > post2.date ? -1 : 1));
   return posts;
 }
+
+export function getRecentFive(): Post[] {
+  const slugs = getPostSlugs();
+  const posts = slugs
+    .map((slug) => getPostBySlug(slug))
+    .sort((post1, post2) => (post1.date > post2.date ? -1 : 1));
+  return posts.slice(0,5);
+}

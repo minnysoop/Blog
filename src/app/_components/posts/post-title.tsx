@@ -14,7 +14,11 @@ export function PostTitle({ children }: Props) {
       </h1>
       <div>
         <Link href={`/`} className="text-blue-500 underline">
-            Back to Blog
+            Back to main
+        </Link>
+        <span> | </span>
+        <Link href={`/posts`} className="text-blue-500 underline">
+            See all posts
         </Link>
       </div>
     </div>
