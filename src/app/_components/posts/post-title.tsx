@@ -13,7 +13,7 @@ export function PostTitle({ children }: Props) {
         {children}
       </h1>
       <div>
-        <Link href={`/`} className="text-blue-500 hover:opacity-75 underline">
+        <Link href={`/`} className="text-blue-500 underline">
             Back to Blog
         </Link>
       </div>

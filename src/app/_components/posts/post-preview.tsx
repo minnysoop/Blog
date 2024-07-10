@@ -17,7 +17,7 @@ export function PostPreview({
       <h4 className="text-1xl mb-3 leading-snug">
         <DateFormatter dateString={date} />
         <span> | </span>
-        <Link href={`/posts/${slug}`} className="underline text-blue-500 hover:opacity-75">
+        <Link href={`/posts/${slug}`} className="underline text-blue-500">
           {title}
         </Link>
       </h4>
