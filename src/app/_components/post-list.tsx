@@ -8,7 +8,7 @@ type Props = {
 
 export function PostList({ posts }: Props) {
   return (
-    <section>
+    <>
       <h2 className="mb-4 text-2xl font-bold tracking-tighter leading-tight">
         Blog
       </h2>
@@ -22,6 +22,6 @@ export function PostList({ posts }: Props) {
           />
         ))}
       </div>
-    </section>
+    </>
   );
 }

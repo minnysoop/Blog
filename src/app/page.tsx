@@ -6,7 +6,7 @@ export default function Index() {
   const allPosts = getAllPosts();
 
   return (
-    <main>
+    <main className="mx-auto w-3/4">
       <Container>
         {allPosts.length > 0 && <PostList posts={allPosts} />}
       </Container>
