@@ -10,10 +10,12 @@ export default function Index() {
 
   return (
     <>
-    <Section title="Introduction">
-      <div className="mb-4">Hello, world! This is my blog. It's a place where I can rant, admire, and think about the things happenning around me. I reflect a lot. This blog could help me collect my thoughts. I feel fortunate to be in the midst of such fascinating technological developments (i.e. embedded systems, A.I, robotics, etc.). Without it, I could not have made this blog (well, actually, I probably could, it would just take a lot more work). Sometimes, it's crazy to think that things like technorealism/technoculture, impacts of intelligent systems on jobs, toxic digital media culture, and other similar stuff were once just mere "what if" thoughts. Now, they're real and we have scientists actually talking about them.</div>
-      <div className="mb-4">
-      So, this blog is sorta dedicated to those types of topics. However, I'm trying to approach these things in a more "personal" way. I believe that trying to gather insights on something that affects us so deeply is not achievable from reading a library book. There's just simply too much fabrication. Rather you'll find these in conversations, twitter posts, and things like that (i.e. this blog). With that, most of these posts are basically short reflections on my feelings, and thoughts on how I'm navigating through this blend of science fiction and reality. Read it or not, it's the "free will" you get when you are surfing the internet. I'm writing them anyway.
+    <Section title="Blog Intro">
+      <div className="mb-4">Hello, world! This is my blog. I write about education. These posts approach these topics from an individualistic point of view. So, they'll feel more like reflections than academic writings. There are many theories and established models in the academic field of education. However, due to the unique quirks and diversity of being human, it's challenging to convert these theories and models into practice. The issue isn't that the research methods are ineffective, but rather that the degree of randomness among human beings is so great that it's hard to find a one-size-fits-all model from a handful of interviews and a survey.
+      </div>
+      <div className="mb-4">In the end, we get controversial reviews about things liks designing curriculums, running classrooms, school schedules that are difficult to make use of. Regardless, I admire this diversity even if it makes life a little harder because it makes way to new thinking.
+      </div>
+      <div className="mb-4">I have a couple reasons for writing this blog. The primary one is to collect my personal thoughts on education. Rereading my thoughts from a year ago could spark new ideas I couldn't have thought of at the time of writing. Another, more philosophical, one is to convince myself that education, while an entire field of research of its own, is personal. With all the media today, it's easy suppress personal thoughts and pigeonhole yourself into a certain type of thinker when, in reality, it's much more complex than that. And, by serving this blog to the public domain, it becomes a reassuring reminder that someone out there, namely me, share the same thoughts as me.
       </div>
     </Section>
     <Section title="Blog">
